@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="CustomeView">
-        <attr name="attr_color" format="color"/>
-        <attr name="attr_text" format="string"/>
-        <attr name="attr_text_color" format="color"/>
+
+
+    <declare-styleable name="CustomeImageView">
+        <attr name="imageRef" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="customImageHeight" format="dimension" />
+        <attr name="customImageWidth" format="dimension" />
+        <attr name="customTextSize" format="float" />
+        <attr name="textColor" format="color" />
+        <attr name="customCornerRadius" format="dimension" />
     </declare-styleable>
+
+
+
+
 </resources>

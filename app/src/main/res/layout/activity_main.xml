@@ -7,57 +7,23 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <com.example.costomeview.cusomView.CustomeView
-            android:id="@+id/mcv"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            app:attr_color="@color/teal_200"
-            app:attr_text_color="@color/black"
-            android:text="nitesh"
-            android:textColor="@color/black"
-            android:gravity="center"
-            app:attr_text="nitesh"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
+
+        <com.example.costomeview.cusomView.CustomeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:customCornerRadius="10dp"
+            app:customImageHeight="100dp"
+            app:customImageWidth="100dp"
+            app:customTextSize="20"
+            app:imageRef="@drawable/logo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="40dp"-->
-<!--            android:orientation="horizontal"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toBottomOf="@+id/mcv">-->
-
-<!--            <Button-->
-<!--                android:id="@+id/one"-->
-<!--                android:layout_width="0sp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_weight="1"-->
-
-<!--                android:text="CUSTOM PADDING +" />-->
-
-<!--            <Button-->
-<!--                android:id="@+id/two"-->
-<!--                android:layout_width="0sp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_weight="1"-->
-<!--                android:text="SWAP COLOR" />-->
-
-<!--            <Button-->
-<!--                android:id="@+id/three"-->
-<!--                style="?android:attr/buttonBarStyle"-->
-<!--                android:layout_width="0sp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_weight="1"-->
-
-<!--                android:text="CUSTOM PADDING -" />-->
-
-<!--        </LinearLayout>-->
+            app:layout_constraintTop_toTopOf="parent"
+            app:text="hsdiufusdfjhsdfuhsu"
+            app:textColor="@color/teal_200" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
