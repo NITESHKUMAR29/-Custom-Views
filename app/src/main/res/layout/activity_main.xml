@@ -25,6 +25,4 @@
             app:text="hsdiufusdfjhsdfuhsu"
             app:textColor="@color/teal_200" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </layout>
